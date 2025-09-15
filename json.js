@@ -124,7 +124,7 @@
 
 // task 22
 // let price = Number(prompt("emanətin mebleğini daxil edin:"));
-// let years = Number(prompt("Müddeti il daxil edin:"));
+// let year = Number(prompt("Müddeti il daxil edin:"));
 // let rate = Number(prompt("Faiz dərəcəsini (%) daxil edin:"));
 // let profit = price * rate / 100 * years; 
 // console.log("Mənfəət: " + profit + " AZN"); 
