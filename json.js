@@ -123,13 +123,13 @@
 // console.log(result);
 
 // task 22
-<<<<<<< HEAD
+
 // let price = Number(prompt("emanətin mebleğini daxil edin:"));
 // let year = Number(prompt("Müddeti il daxil edin:"));
 // let rate = Number(prompt("Faiz dərəcəsini (%) daxil edin:"));
-// let profit = price * rate / 100 * years; 
-// console.log("Mənfəət: " + profit + " AZN"); 
-=======
+// let profit = price * rate / 100 * years;
+
+// console.log("Mənfəət: " + profit + " AZN");
 // let price = Number(prompt("emanetin mebleğini daxil edin"));
 // let year = Number(prompt("muddeti il daxil edin"));
 // let rate = Number(prompt("faiz derecesini % daxil edin"));
@@ -291,4 +291,3 @@
 // }
 
 // console.log("netice", result);
->>>>>>> d334477 (task)
