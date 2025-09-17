@@ -237,27 +237,12 @@
 // console.log("kvadratin sahesi:", area);
 // console.log("kvadratin perimetri", perimeter);
 
-// task 38
-// let grade = 82;
 
-// switch (true) {
-//     case (grade >= 90 && grade <= 100):
-//         console.log("ela");
-//         break;
-//     case (grade >= 75 && grade <= 89):
-//         console.log("yaxsi");
-//         break;
-//     case (grade >= 60 && grade <= 74):
-//         console.log("orta");
-//         break;
-//     case (grade >= 0 && grade <= 59):
-//         console.log("zeif");
-//         break;
 //     default:
 //         console.log("yanlis qiymet");
 // }
 
-// task 39
+// task 38
 // let randomNumber = Math.floor(Math.random() * 101);
 // console.log("tesadufi eded", randomNumber);
 
