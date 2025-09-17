@@ -192,7 +192,7 @@
 // let a = 6, b = 4, c = 2;
 // let x = ++a - b-- + c++ - --b + a++; // ++a=7(a=7) - b--=4(b=3) + c++=2(c=3) - --b=2(b=2) + a++=7(a=8) → x=10
 // let y = a-- + --c - ++b + x++ - --a;  // a--=8(a=7) + --c=2(c=2) - ++b=3(b=3) + x++=10(x=11) - --a=6(a=6) → y=11
-// console.log(a, b, c, x, y); // 6 3 2 11 11
+// console.log(); // 6 3 2 11 11
 
 // task 34
 // let number = prompt("Bir eded daxil edin");
