@@ -183,6 +183,147 @@
 //     console.log("İl uzun il deyil");
 // }
 
+// task 27
+// let id = prompt("enter product id:");
+
+// switch (id) {
+//     case "1":
+//         alert("Available 10 pcs.");
+//         break;
+//     case "2":
+//         alert("Available 256 pcs.");
+//         break;
+//     case "3":
+//         alert("Available 53 pcs.");
+//         break;
+//     case "4":
+//         alert("There are 3 available.");
+//         break;
+//     default:
+//         alert("Out of stock");
+// }
+
+// task 28
+// let genderInput = prompt("Cinsinizi daxil edin (M/F):").toUpperCase();
+// let gender;
+
+// switch (genderInput) {
+//   case "M":
+//     gender = "male";
+//     break;
+//   case "F":
+//     gender = "female";
+//     break;
+//   default:
+//     gender = "unknown";
+// }
+// alert("Gender: " + gender);
+
+// task 29
+// let monthNumber = prompt("Ayin nomresini daxil edin");
+// let monthName;
+
+// switch (monthNumber) {
+//     case "1":
+//         monthName = "Yanvar";
+//         break;
+//     case "2":
+//         monthName = "Fevral";
+//         break;
+//     case "3":
+//         monthName = "Mart";
+//         break;
+//     case "4":
+//         monthName = "Aprel";
+//         break;
+//     case "5":
+//         monthName = "May";
+//         break;
+//     case "6":
+//         monthName = "İyun";
+//         break;
+//     case "7":
+//         monthName = "İyul";
+//         break;
+//     case "8":
+//         monthName = "Avqust";
+//         break;
+//     case "9":
+//         monthName = "Sentyabr";
+//         break;
+//     case "10":
+//         monthName = "Oktyabr";
+//         break;
+//     case "11":
+//         monthName = "Noyabr";
+//         break;
+//     case "12":
+//         monthName = "Dekabr";
+//         break;
+//     default:
+//         monthName = "yanlis ay nomresi";
+// }
+// console.log(monthName);
+
+// task 30
+// var tamtarix = prompt("Tarixi YYYY.MM.DD formatinda daxil edin");
+// var bolunmustarix = tamtarix.split(".");
+// var il = +bolunmustarix[0];
+// var ay = +bolunmustarix[1];
+// var gun = +bolunmustarix[2];
+
+// if (String(il).length !== 4) {
+//     alert("Tarixi duzgun qeyd etmemisiniz");
+// }
+// else if (ay <= 0 || ay > 12) {
+//     alert("Tarixi duzgun qeyd etmemisiniz");
+// }
+// else if (gun <= 0 || gun > 31) {
+//     alert("Tarixi duzgun qeyd etmemisiniz");
+// }
+// else {
+//     switch (ay) {
+//         case 1:
+//             alert(`${gun} Yanvar ${il}-cu il`);
+//             break;
+//         case 2:
+//             alert(`${gun} Fevral ${il}-cu il`);
+//             break;
+//         case 3:
+//             alert(`${gun} Mart ${il}-cu il`);
+//             break;
+//         case 4:
+//             alert(`${gun} Aprel ${il}-cu il`);
+//             break;
+//         case 5:
+//             alert(`${gun} May ${il}-cu il`);
+//             break;
+//         case 6:
+//             alert(`${gun} Iyun ${il}-cu il`);
+//             break;
+//         case 7:
+//             alert(`${gun} Iyul ${il}-cu il`);
+//             break;
+//         case 8:
+//             alert(`${gun} Avgust ${il}-cu il`);
+//             break;
+//         case 9:
+//             alert(`${gun} Sentyabr ${il}-cu il`);
+//             break;
+//         case 10:
+//             alert(`${gun} Oktyabr ${il}-cu il`);
+//             break;
+//         case 11:
+//             alert(`${gun} Noyabr ${il}-cu il`);
+//             break;
+//         case 12:
+//             alert(`${gun} Dekabr ${il}-cu il`);
+//             break;
+//         default:
+//             alert("Tarixi duzgun qeyd etmemisiniz");
+//     }
+// }
+
 // ? task 31
 // let p = 8; // p=8 → p--=8(p=7) --p=6 p++=6(p=7) ++p=8 → q=16
 // let q = p-- - --p + p++ + ++p;
@@ -217,10 +358,7 @@
 // } else {
 //     largest = c;
 // }
-
 // console.log("en boyuk eded:", largest);
-
-
 
 // task 36
 // let number = prompt("bir eded daxil edin");
@@ -241,6 +379,7 @@
 //     default:
 //         console.log("yanlis qiymet");
 // }
+
 
 // task 39
 // let randomNumber = Math.floor(Math.random() * 101);
