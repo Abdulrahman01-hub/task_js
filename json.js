@@ -266,28 +266,3 @@
 // } else {
 //     console.log("eded 51-100 arasindadir");
 // }
-
-// task 40
-// let a = 5;
-// let b = 3;
-// let op = "*";
-// let result;
-
-// switch (op) {
-//   case "+":
-//     result = a + b;
-//     break;
-//   case "-":
-//     result = a - b;
-//     break;
-//   case "*":
-//     result = a * b;
-//     break;
-//   case "/":
-//     result = b !== 0 ? a / b : "sifira bolmok olmaz";
-//     break;
-//   default:
-//     result = "duzgun operator daxil et";
-// }
-
-// console.log("netice", result);
