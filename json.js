@@ -242,7 +242,7 @@
 //         console.log("yanlis qiymet");
 // }
 
-// task 38
+// task 39
 // let randomNumber = Math.floor(Math.random() * 101);
 // console.log("tesadufi eded", randomNumber);
 
