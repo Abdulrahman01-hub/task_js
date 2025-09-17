@@ -390,3 +390,29 @@
 // } else {
 //     console.log("eded 51-100 arasindadir");
 // }
+
+// task 40
+let a = 5, b = 3, op = "*";
+let result;
+
+switch (op) {
+    case "+":
+        result = a + b;
+        break;
+    case "-":
+        result = a - b;
+        break;
+    case "*":
+        result = a * b;
+        break;
+    case "/":
+        if (b !== 0) {
+            result = a / b;
+        } else {
+            result = "sifira bolmek olmaz";
+        }
+        break;
+    default:
+        result = "yanlis operator daxil edilib";
+}
+console.log("netice:", result);
